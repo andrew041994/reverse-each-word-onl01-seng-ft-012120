@@ -1,5 +1,10 @@
 def reverse_each_word(sentence1)
-  reversed = []
-  reversed << sentence1.reverse
-  reversed.join
+  array = sentence1.split
+  reversed_words = []
+  i=0
+  while i < reversed_words.size
+    reversed_words << array[i].reverse
+    i+=1
+  end
+  reversed_words
 end
