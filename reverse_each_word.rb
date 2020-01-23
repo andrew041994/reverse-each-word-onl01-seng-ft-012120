@@ -6,5 +6,5 @@ def reverse_each_word(sentence1)
     reversed_words << array[i].reverse
     i+=1
   end
-  puts reversed_words
+  reversed_words
 end
